@@ -1,0 +1,53 @@
+
+% man git-log
+GIT-LOG(1)                                                                Git Manual                                                               GIT-LOG(1)
+
+NAME
+       git-log - Show commit logs
+
+SYNOPSIS
+       git log [<options>] [<revision range>] [[--] <path>...]
+
+DESCRIPTION
+       Shows the commit logs.
+
+       The command takes options applicable to the git rev-list command to control what is shown and how, and options applicable to the git diff-* commands
+       to control how the changes each commit introduces are shown.
+
+OPTIONS
+       --follow
+           Continue listing the history of a file beyond renames (works only for a single file).
+
+% git config --global user.name "Jannat"
+
+% git config --global user.email you@yourdomain.example.comjannelya@gmail.com
+
+% cd gitpractice
+
+% git init
+Initialized empty Git repository in /Users/jannatturdumbayeva/PycharmProjects/gitpractice/.git/
+
+Создала новый репозиторий в своем Git Hub
+
+% git add .
+
+% git status
+On branch master
+No commits yet
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .gitignore
+        new file:   GIthw.txt
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   GIthw.txt
+
+
+
+
+
+
+
+
+
